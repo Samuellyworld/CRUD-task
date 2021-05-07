@@ -1,8 +1,6 @@
 # CRUD-task
 
-Live at - https://zuriteam-crud-task.herokuapp.com/
-
-hosted with heroku.
+Live at - https://zuriteam-crud-task.herokuapp.com/  hosted on heroku.
 
 I used a Mock Up test data for start but you can create yours with POSTMAN
 
