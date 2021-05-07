@@ -4,6 +4,14 @@ Live at - https://zuriteam-crud-task.herokuapp.com/  hosted on heroku.
 
 I used a Mock Up test data for start but you can create yours with POSTMAN
 
+using this as the schema for your POSTMAN with JSON with whatever information you want in the value object
+
+{ 
+  "name" : "John",
+  "email" : "John@gmail.com",
+  "country" : "Canada"
+ }
+  
 use POSTMAN for each end points
 
 Get Data with - https://zuriteam-crud-task.herokuapp.com/data  with endpoint[GET] - this will get my mockup data if you haven't created data
