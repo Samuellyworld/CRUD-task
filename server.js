@@ -47,6 +47,7 @@ app.put('/data/:dataId', (req,res) => {data.handleUpdate(req,res)});
 // Delete a data with its id
 app.delete('/data/:dataId', (req,res) => {data.handleDelete(req,res)});
 
-app.listen(3000, ()=> {
-    console.log('App is listening at port 3000');
- });
+// listen to server
+app.listen(process.env.PORT || 3000, ()=> {
+	console.log(`app is working on port ${process.env.PORT}`);
+});
