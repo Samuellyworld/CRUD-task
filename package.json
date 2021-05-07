@@ -4,7 +4,7 @@
   "description": "This is a app that does a CRUD operation within each route",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "author": "Samuel Aspirin",
   "license": "ISC",
