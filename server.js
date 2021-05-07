@@ -5,7 +5,7 @@ const data = require('./app/controller.js');
 
 // Configuring the database
 const mongoose = require('mongoose');
-const connectionString =  process.env.MONGODB_URI || "mongodb://localhost/crudApp";
+const connectionString =  process.env.ORMONGO_URL || "mongodb://localhost/crudApp";
 
 // Connecting to the database
 mongoose.connect(connectionString, {
