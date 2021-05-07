@@ -6,11 +6,13 @@ I used a Mock Up test data for start but you can create yours with POSTMAN
 
 using this as the schema for your POSTMAN with JSON with whatever information you want in the value object
 
+```javascript
 { 
   "name" : "John",
   "email" : "John@gmail.com",
   "country" : "Canada"
  }
+ ```
   
 use POSTMAN for each end points
 
