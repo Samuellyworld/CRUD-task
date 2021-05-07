@@ -5,7 +5,7 @@ const data = require('./app/controller.js');
 
 // Configuring the database
 const mongoose = require('mongoose');
-const connectionString =  process.env.ORMONGO_URL || "mongodb://localhost/crudApp";
+const connectionString =  process.env.MONGODB_URI || "mongodb://localhost/crudApp";
 
 // Connecting to the database
 mongoose.connect(connectionString, {
@@ -47,7 +47,7 @@ app.put('/data/:dataId', (req,res) => {data.handleUpdate(req,res)});
 // Delete a data with its id
 app.delete('/data/:dataId', (req,res) => {data.handleDelete(req,res)});
 
-// listen to server
+// listening to server
 app.listen(process.env.PORT || 3000, ()=> {
 	console.log(`app is working on port ${process.env.PORT}`);
 });
