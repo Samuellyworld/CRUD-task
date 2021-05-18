@@ -4,7 +4,7 @@ Live at - https://zuriteam-crud-task.herokuapp.com/  hosted on heroku.
 
 I used a Mock Up test data for start but you can create yours with POSTMAN
 
-using string as the schema for your POSTMAN with JSON with whatever information you want in the value object for example:
+using string as the schema for your POSTMAN JSON with whatever information you want in the value object for example:
 
 ```javascript
 { 
