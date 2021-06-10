@@ -16,13 +16,13 @@ using string as the schema for your POSTMAN JSON with whatever information you w
   
 use POSTMAN for each end points
 
-Get Data with - https://zuriteam-crud-task.herokuapp.com/data  with endpoint[GET] - this will get my mockup data if you haven't created data
+Get Data with - https://zuriteam-crud-task.herokuapp.com/data  with endpoint[GET] - this will get my mockup data if you haven't created data.
 
-Create Data - https://zuriteam-crud-task.herokuapp.com/data with endpoint[POST] - this will create the user data
+Create Data - https://zuriteam-crud-task.herokuapp.com/data with endpoint[POST] - this will create the user data.
 
-Update data - https://zuriteam-crud-task.herokuapp.com/data/:dataId with endpoint [PUT] - with its data ID to update the user data
+Update data - https://zuriteam-crud-task.herokuapp.com/data/:dataId with endpoint [PUT] - with its data ID to update the user data.
 
-Delete Data - https://zuriteam-crud-task.herokuapp.com/:dataId with endpoint [DELETE] - with its data ID to delete the user data
+Delete Data - https://zuriteam-crud-task.herokuapp.com/:dataId with endpoint [DELETE] - with its data ID to delete the user data.
 
 
 
